@@ -46,12 +46,7 @@ public class Ahorcado {
         //Jugador 1 introduce una palabra al programa
         System.out.println("Juega con palabras de 6 letras");
         char[] palabra = entrada.readPassword("jugador 1 intruduce una palabra ");
-        /*
-        System.out.println("Introduce una palabra");
-        String pa = sc.nextLine();
-        //Pasamos ese String a un array de carácteres tipo char
-        char[] palabra = pa.toCharArray();
-        */
+
         //Comprobamos que esa palabra  cumpla con la norma establecida 
         if (palabra.length == 6) {
             System.out.println("La palabra es " + palabra[0] + " " + palabra[2] + " " + palabra[4] + " ");
